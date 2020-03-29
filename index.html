@@ -1,81 +1,16 @@
 <html>
 <head>
-  <meta charset="utf-8" />
-  <title>Displaying Web maps</title>
-  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-
-  <!-- Load Leaflet from CDN -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-  crossorigin=""/>
-  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-  crossorigin=""></script>
-
-  <!-- Load Esri Leaflet from CDN -->
-  <script src="https://unpkg.com/esri-leaflet@2.3.3/dist/esri-leaflet.js"
-  integrity="sha512-cMQ5e58BDuu1pr9BQ/eGRn6HaR6Olh0ofcHFWe5XesdCITVuSBiBZZbhCijBe5ya238f/zMMRYIMIIg1jxv4sQ=="
-  crossorigin=""></script>
-
-  <style>
-    body { margin:0; padding:0; }
-    #map { position: absolute; top:0; bottom:0; right:0; left:0; }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>imPACT</title>
+  <link rel="stylesheet" href="./styles/map.css"> 
+  
+  <script src="https://js.arcgis.com/4.14/"></script>
+  <script src="./js/Map.js"></script>
 </head>
+
 <body>
-
-<!-- Load Leaflet Label from GitHub -->
-<script src="https://leaflet.github.io/Leaflet.label/leaflet.label.js"></script>
-
-<!-- Include Leaflet.heat from CDN -->
-<script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
-
-<!-- Load Heatmap Feature Layer from CDN -->
-<script src="https://cdn.jsdelivr.net/leaflet.esri.heatmap-feature-layer/2.0.0-beta.1/esri-leaflet-heatmap-feature-layer.js"></script>
-
- <!-- Load Esri Leaflet Renderers from CDN -->
- <script src="https://cdn.jsdelivr.net/leaflet.esri.renderers/2.0.2/esri-leaflet-renderers.js"></script>
-
- <!-- Load Vector Icon from GitHub -->
- <script src="https://muxlab.github.io/Leaflet.VectorIcon/L.VectorIcon.js"></script>
-
- <!-- Load Leaflet Omnivore -->
- <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
-
- <!-- Load L.esri.WebMap -->
- <script src="https://cdn.jsdelivr.net/leaflet.esri.webmap/0.4.0/esri-leaflet-webmap.js"></script>
-
-<div id="map"></div>
-
-<script>
-  // to draw a different webmap, just append its id instead
-  // webmap.html?id=d143b33f1a02421d86b6a4ca1d7b7cd0
-//   var webmapId = 'e7e639f853fb4b9faafbf1cf544b4326';
-  var webmapId = 'd143b33f1a02421d86b6a4ca1d7b7cd0'; // Default WebMap ID
-  getIdfromUrl();
-
-  var webmap = L.esri.webMap(webmapId, { map: L.map('map') });
-
-  webmap.on('load', function () {
-    var overlayMaps = {};
-    webmap.layers.map(function (l) {
-      overlayMaps[l.title] = l.layer;
-    });
-    L.control.layers({}, overlayMaps, {
-      position: 'bottomleft'
-    }).addTo(webmap._map);
-  });
-
-  function getIdfromUrl () {
-    var urlParams = location.search.substring(1).split('&');
-    for (var i = 0; urlParams[i]; i++) {
-      var param = urlParams[i].split('=');
-      if (param[0] === 'id') {
-        webmapId = param[1];
-      }
-    }
-  }
-</script>
-
+  <div id="viewDiv"></div>
 </body>
+
 </html>
