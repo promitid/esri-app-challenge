@@ -1,13 +1,13 @@
 # imPACt
 ## Mission Statement
  
-The 2019 novel coronavirus disease (COVID-19) was declared a pandemic by the World Health Organization (WHO) on March 11th, 2020 <sup> 1 </sup>, and now surpasses 500,000 cases across 200 countries <sup>2</sup>. While the events of this outbreak are still unfolding, this unprecedented event has already devastated many communities, resulting in loss of life, depletion of healthcare resources, and economic instability.
+The 2019 novel coronavirus disease (COVID-19) was declared a pandemic by the World Health Organization (WHO) on March 11th, 2020 <sup> 1 </sup>, and now surpasses 500,000 cases across 200 countries<sup>2</sup>. While the events of this outbreak are still unfolding, this unprecedented event has already devastated many communities, resulting in loss of life, depletion of healthcare resources, and economic instability.
  
-The ability of a community to prevent and minimize harm and financial loss in the face of disaster is typically linked to its social conditions. Vulnerable communities with poorer social indicators are often less prepared for disaster, and less likely to fully recover <sup> 3 </sup>. Effectively identifying and addressing these disparities is crucial to address health inequities and ensure community resilience to new health risks.
+The ability of a community to prevent and minimize harm and financial loss in the face of disaster is typically linked to its social conditions. Vulnerable communities with poorer social indicators are often less prepared for disaster, and less likely to fully recover<sup>3</sup>. Effectively identifying and addressing these disparities is crucial to address health inequities and ensure community resilience to new health risks.
  
-Vulnerability indices summarize social and spatially relevant information, and are often used by public health officials, planners, and policymakers to respond to emergency events, such as natural disasters, anthropogenic events, or disease outbreak. The Centers for Disease Control’s Social Vulnerability Index (SVI) compiles dimensions such as socioeconomic status and household composition to help identify vulnerable communities that need support before, during, and after a hazardous event (3). Locally, Public Health Ontario’s Ontario Marginalization Index (ON-Marg) also measures multiple indicators of deprivation, based on dimensions of residential instability, dependency, and ethnic concentration <sup> 4 </sup>.
+Vulnerability indices summarize social and spatially relevant information, and are often used by public health officials, planners, and policymakers to respond to emergency events, such as natural disasters, anthropogenic events, or disease outbreak. The Centers for Disease Control’s Social Vulnerability Index (SVI) compiles dimensions such as socioeconomic status and household composition to help identify vulnerable communities that need support before, during, and after a hazardous event (3). Locally, Public Health Ontario’s Ontario Marginalization Index (ON-Marg) also measures multiple indicators of deprivation, based on dimensions of residential instability, dependency, and ethnic concentration<sup>4</sup>.
  
-While these indices provide substantial value towards identifying vulnerable populations, in the context of the COVID-19 crisis, social vulnerability indicators alone may not paint the whole picture. We are observing early on that COVID-19 disproportionately affects the senior population <sup> 5 </sup>, and as a communicable disease, is more likely to affect densely populated areas. As such, our goal was to develop a COVID-19-specific index, to identify susceptible populations and evaluate the vulnerability of Toronto neighbourhoods in response to the COVID-19 outbreak.
+While these indices provide substantial value towards identifying vulnerable populations, in the context of the COVID-19 crisis, social vulnerability indicators alone may not paint the whole picture. We are observing early on that COVID-19 disproportionately affects the senior population<sup>5</sup>, and as a communicable disease, is more likely to affect densely populated areas. As such, our goal was to develop a COVID-19-specific index, to identify susceptible populations and evaluate the vulnerability of Toronto neighbourhoods in response to the COVID-19 outbreak.
  
  
 ## App description and features
@@ -27,7 +27,7 @@ The CNVI consists of neighbourhood-level variables that account for vulnerable p
 `SES Index = 2.5 x UnivGrad + 2.5 x LowIncome + 2.5 x Minority + 2.5 x NoEnFr`
  
     UnivGrad = 1 – (rate of people with a university degree at bachelor level or above)
-    LowIncome = rate of low-income individuals based on the market-based measure <sup> 6 </sup>
+    LowIncome = rate of low-income individuals based on the market-based measure<sup>6</sup>
     Minority = rate of visible minorities for the population in private households
     NoEnFr = rate of mother tongue that is not English or French for total population
 
@@ -50,7 +50,7 @@ The CNVI consists of neighbourhood-level variables that account for vulnerable p
     Diab = age-standardized rate of diabetes, ages +20
     HBP = age-standardized rate of high blood pressure, ages +20
  
-**Healthcare preparedness:** This dimension encapsulates the degree of healthcare resource utilization within each neighbourhood. This provides insight into the potential strain of healthcare resources that may be experienced in a community in the case of a communicable disease outbreak. This dimension reports annual hospitalization rates, ED visits, and proportion of Family Healthcare Team (FHT) or Community Healthcare Centre (CHC) patients <sup> 7, 8 </sup>.
+**Healthcare preparedness:** This dimension encapsulates the degree of healthcare resource utilization within each neighbourhood. This provides insight into the potential strain of healthcare resources that may be experienced in a community in the case of a communicable disease outbreak. This dimension reports annual hospitalization rates, ED visits, and proportion of Family Healthcare Team (FHT) or Community Healthcare Centre (CHC) patients<sup>7,8</sup>.
  
 `Healthcare Preparedness Index = 3.33 x HospRate + 3.33 x EDRate + 0.33 x FHTCHC`
  
