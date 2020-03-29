@@ -18,9 +18,9 @@ Our app, *imPACT*, aims to help Toronto’s public health officials, emergency r
 
  
 ## Calculations
-### COVID-19 Neighbourhood Vulnerability Index
+### COVID-19 Neighbourhood Vulnerability Index (CNVI)
  
-The *CNVI* consists of neighbourhood-level variables that account for vulnerable populations, probability of exposure, and preparedness of healthcare facilities. Together, these factors indicate which neighbourhoods may be more susceptible to exposure or less capable of dealing with crisis. There are 5 dimensions of the CNVI: socioeconomic status, vulnerable seniors, healthcare usage, chronic disease, and exposure. For each dimension, an equally weighted index was calculated from normalized rates of various neighbourhood-level variables, displayed on a scale from 0-10, where higher values are worse. The CNVI is the average of indices from each dimension, and was normalized to show variation across neighbourhoods.
+The **CNVI** consists of neighbourhood-level variables that account for vulnerable populations, probability of exposure, and preparedness of healthcare facilities. Together, these factors indicate which neighbourhoods may be more susceptible to exposure or less capable of dealing with crisis. There are 5 dimensions of the CNVI: socioeconomic status, vulnerable seniors, healthcare usage, chronic disease, and exposure. For each dimension, an equally weighted index was calculated from normalized rates of various neighbourhood-level variables, displayed on a scale from 0-10, where higher values are worse. The CNVI is the average of indices from each dimension, and was normalized to show variation across neighbourhoods.
  
 **Socioeconomic status (SES):** Social and economic characteristics are often linked to health outcomes and ability to respond to adverse events. This dimension encapsulates basic dimensions of SES status: education, market-based measure income<sup>6</sup>, ethnic concentration, and primary language. The following rates were calculated, normalized, and converted into an equally weighted index:
  
@@ -67,7 +67,7 @@ The *CNVI* consists of neighbourhood-level variables that account for vulnerable
     Apartm = rate of occupied private dwellings in an apartment building with 5+ storeys
     TransWalk = rate of commuters who walk or take transit to work, among employed labour force >15
  
-The CNVI is thus the weighted average of each index: 
+The **CNVI*** is thus the weighted average of each index: 
 
 `CNVI = 2 x SESI + 2 x VSI + 2 x NHI + 2 x HPI + 2 x EI`
 
