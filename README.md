@@ -107,8 +107,8 @@ Ontario Hospitals: https://geohub.lio.gov.on.ca/datasets/ministry-of-health-serv
 
 ## About QuaranTEAM
 
-**Cathy Yang** 
+**Cathy Yang** is a 3rd year undergraduate student at U of T studying Physiology, Human Geography and GIS. She was the lead researcher and data curator for this project. Her interests lie in public health and assessing psychosocial barriers to healthcare access. Throughout this experience, she thoroughly enjoyed being able to merge her background and knowledge in healthcare and clinical research with the tools she has learned from her GIS courses. She  hopes in the future to be able to continue using geospatial technologies to help communicate and solve health problems. In her free time, she enjoys listening to podcasts, playing piano, and watching her favourite sports teams.
 
-**Tia Datta** 
+**Tia Datta**  
 
 **Chloe Nguyen** 
