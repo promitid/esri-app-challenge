@@ -16,20 +16,14 @@ Our app, *ReCOVer*, aims to help Toronto’s public health officials, emergency 
 
 ### Functionalities
 #### Compare neighbourhoods
-This feature allows you to compare the CNVI between neighbourhoods, to help distinguish which areas may be more or less vulnerable.
-You will also be able to compare each dimension of the CNVI, to view which aspect of each neighbourhood makes them more or less vulnerable.
+This feature allows you to compare the CNVI between neighbourhoods, by ranking neighbourhoods according to their vulnerability. Click on an index to generate a bar chart that displays values for all neighbourhoods in ascending order. 
+You will also be able to compare each individual index that makes up the CNVI, allowing you to compare how neighbourhoods stack up against each other in terms of socioeconomic status, health, or vulnerable populations. 
 #### Locate nearby hospitals
-This feature lets you search for nearby hospitals based on a user-defined location. 
-You are able to view the list of hospitals, get directions, and query COVID-19 Testing Centres. 
+This feature lets you search for nearby hospitals based on a specified location. Type an address into the box, set a buffer distance, and a list of hospitals in your area will be queried. From the list, you are able to find key information, and get directions. The filter option also allows you to query COVID-19 Testing Centres. 
 #### At a glance
-This feature provides a snapshot of the population characteristics and indices in the current map extent.
-As you pan through the map, you will be able to see a summary of the mean CNVI in the area, and relevant statistics about its vulnerable population.
+This feature provides a snapshot of the population characteristics and indices in the user's map extent. As you pan or adjust the scale of the map, you will be able to see a live summary of the mean CNVI in the area, and relevant statistics about its vulnerable population.
 #### Summary Report
-This feature allows you to summarize the vulnerability and population characteristics within a user-defined area. 
-The place name option allows you to create a buffer around a specific location to generate a summary report of the vulnerability in that area.
-The draw option allows you to generate a summary report within a user-drawn area. 
-
-
+This feature allows you to summarize the vulnerability and population characteristics within a specified area, and generate a summary report to inform users about the vulnerability in a specified area. The place name option allows you to create a buffer around an address to generate a summary report of the vulnerability in that area. The draw option allows you to draw a polygon, or place a point on the map to create your summary report. As an example, try to draw a polygon around your nearest hospital to see the degree of vulnerability and potential strain on healthcare resources in the event of an outbreak.
 
  
 ## Calculations
@@ -110,3 +104,11 @@ Ontario Hospitals: https://geohub.lio.gov.on.ca/datasets/ministry-of-health-serv
 6. Government of Canada, S. C. (2017, May 3). Dictionary, Census of Population, 2016—Market Basket Measure (MBM). https://www12.statcan.gc.ca/census-recensement/2016/ref/dict/pop165-eng.cfm
 7. Government of Ontario, M. of H. and L.-T. C. (n.d.). Q&A: Understanding Family Health Teams. Government of Ontario, Ministry of Health and Long-Term Care. Retrieved March 28, 2020, from http://www.health.gov.on.ca/en/pro/programs/fht/fht_understanding.aspx
 8. Government of Ontario, M. of H. and L.-T. C. (n.d.). Community Health Centres. Government of Ontario, Ministry of Health and Long-Term Care. Retrieved March 28, 2020, from http://www.health.gov.on.ca/en/common/system/services/chc/default.aspx
+
+## About QuaranTEAM
+
+**Cathy Yang** 
+
+**Tia Datta** 
+
+**Chloe Nguyen** 
