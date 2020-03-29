@@ -1,7 +1,7 @@
 # imPACt
 ## Mission Statement
  
-The 2019 novel coronavirus disease (COVID-19) was declared a pandemic by the World Health Organization (WHO) on March 11th, 2020 <sup> 1 </sup>, and now surpasses 500,000 cases across 200 countries<sup>2</sup>. While the events of this outbreak are still unfolding, this unprecedented event has already devastated many communities, resulting in loss of life, depletion of healthcare resources, and economic instability.
+The 2019 novel coronavirus disease (COVID-19) was declared a pandemic by the World Health Organization (WHO) on March 11th, 2020<sup>1</sup>, and now surpasses 500,000 cases across 200 countries<sup>2</sup>. While the events of this outbreak are still unfolding, this unprecedented event has already devastated many communities, resulting in loss of life, depletion of healthcare resources, and economic instability.
  
 The ability of a community to prevent and minimize harm and financial loss in the face of disaster is typically linked to its social conditions. Vulnerable communities with poorer social indicators are often less prepared for disaster, and less likely to fully recover<sup>3</sup>. Effectively identifying and addressing these disparities is crucial to address health inequities and ensure community resilience to new health risks.
  
