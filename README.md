@@ -1,4 +1,4 @@
-# imPACt
+# ReCOVer: COVID-19 Vulnerability Tracker
 ## Mission Statement
  
 The 2019 novel coronavirus disease (COVID-19) was declared a pandemic by the World Health Organization (WHO) on March 11th, 2020<sup>1</sup>, and now surpasses 500,000 cases across 200 countries<sup>2</sup>. While the events of this outbreak are still unfolding, this unprecedented event has already devastated many communities, resulting in loss of life, depletion of healthcare resources, and economic instability.
