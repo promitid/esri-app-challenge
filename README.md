@@ -26,46 +26,46 @@ The CNVI consists of neighbourhood-level variables that account for vulnerable p
  
 `SES Index = 2.5 x UnivGrad + 2.5 x LowIncome + 2.5 x Minority + 2.5 x NoEnFr`
  
-UnivGrad = 1 – (rate of people with a university degree at bachelor level or above)
-LowIncome = rate of low-income individuals based on the market-based measure (6)
-Minority = rate of visible minorities for the population in private households
-NoEnFr = rate of mother tongue that is not English or French for total population
- 
+    UnivGrad = 1 – (rate of people with a university degree at bachelor level or above)
+    LowIncome = rate of low-income individuals based on the market-based measure (6)
+    Minority = rate of visible minorities for the population in private households
+    NoEnFr = rate of mother tongue that is not English or French for total population
+
  
 **Vulnerable seniors:** Current studies show that morbidity and mortality rates for COVID-19 is higher amongst seniors (5). As such, this dimension accounts for the population seniors (>65) within each neighbourhood, seniors living alone, and the number of senior facilities in each neighbourhood.
  
 `Vulnerable Senior Index= 3.33 x SeniorPop + 3.33 x SenAlone + 3.33 x SeniorFacilities`
  
-SeniorPop = per capita rate of persons aged > 65
-SenAlone = rate of people aged >65 living alone amongst private household population
-SenFacilities = number of long term care facilities, retirement homes, and senior active living centres per neighbourhood
+    SeniorPop = per capita rate of persons aged > 65
+    SenAlone = rate of people aged >65 living alone amongst private household population
+    SenFacilities = number of long term care facilities, retirement homes, and senior active living centres per neighbourhood
  
  
 **Neighbourhood Health (NH):** Prevalence of chronic health conditions are an indicator of neighbourhood-level health, and in the context of COVID-19, the vulnerable population also includes those with underlying chronic health conditions.  This dimension accounts for the prevalence of chronic respiratory diseases, COPD and asthma, along with diabetes and hypertension, among adults.
  
 `NH Index = 2.5*Asthma + 2.5*COPD + 2.5*Diab + 2.5*HBP`
  
-Asthma = age-standardized rate of asthma, all ages
-COPD = age-standardized rate of COPD, ages +35
-Diab = age-standardized rate of diabetes, ages +20
-HBP = age-standardized rate of high blood pressure, ages +20
+    Asthma = age-standardized rate of asthma, all ages
+    COPD = age-standardized rate of COPD, ages +35
+    Diab = age-standardized rate of diabetes, ages +20
+    HBP = age-standardized rate of high blood pressure, ages +20
  
 **Healthcare preparedness:** This dimension encapsulates the degree of healthcare resource utilization within each neighbourhood. This provides insight into the potential strain of healthcare resources that may be experienced in a community in the case of a communicable disease outbreak. This dimension reports annual hospitalization rates, ED visits, and proportion of Family Healthcare Team (FHT) or Community Healthcare Centre (CHC) patients (7, 8).
  
 `Healthcare Preparedness Index = 3.33 x HospRate + 3.33 x EDRate + 0.33 x FHTCHC`
  
-HospRate = age-standardized average annual rate of all hospitalizations, all ages
-EDRate = age-standardized average annual rate of all ED visits, all ages               
-FHTCHC = per capita rate of FHT or CHC patients, among registered persons database population
+    HospRate = age-standardized average annual rate of all hospitalizations, all ages
+    EDRate = age-standardized average annual rate of all ED visits, all ages               
+    FHTCHC = per capita rate of FHT or CHC patients, among registered persons database population
  
  
 **Exposure and behaviours:** This dimension identifies the population that is at high risk of exposure to the spread of communicable diseases, either through their living conditions or their behaviours. This includes people who may commute or walk to work, live in crowded areas, or live in high-density neighbourhoods.
  
 `Exposure Index = 2.5 x Crowding + 2.5 x Apartm + 2.5 x TransWalk + 2.5 x Density`
  
-Crowding = rate of private households with more than 1 person per room
-Apartm = rate of occupied private dwellings in an apartment building with 5+ storeys
-TransWalk = rate of commuters who walk or take transit to work, among employed labour force >15
+    Crowding = rate of private households with more than 1 person per room
+    Apartm = rate of occupied private dwellings in an apartment building with 5+ storeys
+    TransWalk = rate of commuters who walk or take transit to work, among employed labour force >15
  
 ## Data Sources
 ### Census and health data:
