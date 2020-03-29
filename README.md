@@ -14,7 +14,22 @@ While these indices provide substantial value towards identifying vulnerable pop
  
 Our app, *ReCOVer*, aims to help Toronto’s public health officials, emergency response staff, and residents identify neighbourhoods where vulnerable populations are located, and examine how resilient these communities might be in response to the COVID-19 outbreak. First, users will be able to calculate a COVID-19 Neighbourhood Vulnerability Index for their neighbourhood, and will be able to view key demographic numbers and healthcare facilities in their area. Second, users are able to search locations and identify nearby healthcare facilities within a defined radius.
 
-### Functionalities (TO ADD)
+### Functionalities
+#### Compare neighbourhoods
+This feature allows you to compare the CNVI between neighbourhoods, to help distinguish which areas may be more or less vulnerable.
+You will also be able to compare each dimension of the CNVI, to view which aspect of each neighbourhood makes them more or less vulnerable.
+#### Locate nearby hospitals
+This feature lets you search for nearby hospitals based on a user-defined location. 
+You are able to view the list of hospitals, get directions, and query COVID-19 Testing Centres. 
+#### At a glance
+This feature provides a snapshot of the population characteristics and indices in the current map extent.
+As you pan through the map, you will be able to see a summary of the mean CNVI in the area, and relevant statistics about its vulnerable population.
+#### Summary Report
+This feature allows you to summarize the vulnerability and population characteristics within a user-defined area. 
+The place name option allows you to create a buffer around a specific location to generate a summary report of the vulnerability in that area.
+The draw option allows you to generate a summary report within a user-drawn area. 
+
+
 
  
 ## Calculations
