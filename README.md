@@ -1,4 +1,4 @@
-# ReCOVer: COVID-19 Vulnerability Tracker
+﻿# ReCOVer: COVID-19 Vulnerability Tracker
 ## Mission Statement
  
 The 2019 novel coronavirus disease (COVID-19) was declared a pandemic by the World Health Organization (WHO) on March 11th, 2020<sup>1</sup>, and now surpasses 500,000 cases across 200 countries<sup>2</sup>. While the events of this outbreak are still unfolding, this unprecedented event has already devastated many communities, resulting in loss of life, depletion of healthcare resources, and economic instability.
@@ -111,4 +111,4 @@ Ontario Hospitals: https://geohub.lio.gov.on.ca/datasets/ministry-of-health-serv
 
 **Tia Datta** is a 3rd year undergraduate student at U of T studying Computer Science and Statistics. She helped with coding this app and enjoyed exploring the functionalities of ArcGIS Online and learning about spatial analysis techniques. She hopes to utilize these skills in future projects. Her hobbies include cooking, video games, and spending time with her cat. 
 
-**Chloe Nguyen** 
+**Chloe Nguyen** is a 1st year undergraduate student at U of T studying Computer Science. She was a developer for this project. She has an interest in data science and her hobbies include dance, martial arts, chess and piano.
