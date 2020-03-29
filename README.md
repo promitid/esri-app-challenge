@@ -5,7 +5,7 @@ The 2019 novel coronavirus disease (COVID-19) was declared a pandemic by the Wor
  
 The ability of a community to prevent and minimize harm and financial loss in the face of disaster is typically linked to its social conditions. Vulnerable communities with poorer social indicators are often less prepared for disaster, and less likely to fully recover<sup>3</sup>. Effectively identifying and addressing these disparities is crucial to address health inequities and ensure community resilience to new health risks.
  
-Vulnerability indices summarize social and spatially relevant information, and are often used by public health officials, planners, and policymakers to respond to emergency events, such as natural disasters, anthropogenic events, or disease outbreak. The Centers for Disease Control’s Social Vulnerability Index (SVI) compiles dimensions such as socioeconomic status and household composition to help identify vulnerable communities that need support before, during, and after a hazardous event (3). Locally, Public Health Ontario’s Ontario Marginalization Index (ON-Marg) also measures multiple indicators of deprivation, based on dimensions of residential instability, dependency, and ethnic concentration<sup>4</sup>.
+Vulnerability indices summarize social and spatially relevant information, and are often used by public health officials, planners, and policymakers to respond to emergency events, such as natural disasters, anthropogenic events, or disease outbreak. The Centers for Disease Control’s Social Vulnerability Index (SVI) compiles dimensions such as socioeconomic status and household composition to help identify vulnerable communities that need support before, during, and after a hazardous event<sup>3</sup>. Locally, Public Health Ontario’s Ontario Marginalization Index (ON-Marg) also measures multiple indicators of deprivation, based on dimensions of residential instability, dependency, and ethnic concentration<sup>4</sup>.
  
 While these indices provide substantial value towards identifying vulnerable populations, in the context of the COVID-19 crisis, social vulnerability indicators alone may not paint the whole picture. We are observing early on that COVID-19 disproportionately affects the senior population<sup>5</sup>, and as a communicable disease, is more likely to affect densely populated areas. As such, our goal was to develop a COVID-19-specific index, to identify susceptible populations and evaluate the vulnerability of Toronto neighbourhoods in response to the COVID-19 outbreak.
  
@@ -22,12 +22,12 @@ Our app, imPACT, aims to help Toronto’s public health officials, emergency res
  
 The CNVI consists of neighbourhood-level variables that account for vulnerable populations, probability of exposure, and preparedness of healthcare facilities. Together, these factors indicate which neighbourhoods may be more susceptible to exposure or less capable of dealing with crisis. There are 5 dimensions of the CNVI: socioeconomic status, vulnerable seniors, healthcare usage, chronic disease, and exposure. For each dimension, an equally weighted index was calculated from normalized rates of various neighbourhood-level variables, displayed on a scale from 0-10, where higher values are worse. The CNVI is the average of indices from each dimension, and was normalized to show variation across neighbourhoods.
  
-**Socioeconomic status (SES):** Social and economic characteristics are often linked to health outcomes and ability to respond to adverse events. This dimension encapsulates basic dimensions of SES status, such as education, income, ethnic concentration, and primary language. The following rates were calculated, normalized, and converted into an equally weighted index:
+**Socioeconomic status (SES):** Social and economic characteristics are often linked to health outcomes and ability to respond to adverse events. This dimension encapsulates basic dimensions of SES status: education, market-based measure income<sup>6</sup>, ethnic concentration, and primary language. The following rates were calculated, normalized, and converted into an equally weighted index:
  
 `SES Index = 2.5 x UnivGrad + 2.5 x LowIncome + 2.5 x Minority + 2.5 x NoEnFr`
  
     UnivGrad = 1 – (rate of people with a university degree at bachelor level or above)
-    LowIncome = rate of low-income individuals based on the market-based measure<sup>6</sup>
+    LowIncome = rate of low-income individuals based on the market-based measure
     Minority = rate of visible minorities for the population in private households
     NoEnFr = rate of mother tongue that is not English or French for total population
 
