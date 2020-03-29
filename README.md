@@ -68,13 +68,15 @@ The CNVI consists of neighbourhood-level variables that account for vulnerable p
     TransWalk = rate of commuters who walk or take transit to work, among employed labour force >15
  
 ## Data Sources
-### Census and health data:
-Ontario Health Profiles (2016/7) http://www.ontariohealthprofiles.ca/dataTablesON.php?varTab=HPDtbl&select1=7
-Toronto neighbourhoods profile
+### Census and health data
+Ontario Health Profiles (2016/7): http://www.ontariohealthprofiles.ca/dataTablesON.php?varTab=HPDtbl&select1=7
+
+Toronto neighbourhoods profile: 
 https://open.toronto.ca/dataset/neighbourhood-profiles/  
  
-### Spatial data:
+### Spatial data
 Toronto Neighbourhoods: https://open.toronto.ca/dataset/neighbourhoods/
+
 Ontario Hospitals: https://geohub.lio.gov.on.ca/datasets/ministry-of-health-service-provider-locations
  
 ## References
