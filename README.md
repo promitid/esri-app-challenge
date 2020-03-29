@@ -12,7 +12,7 @@ While these indices provide substantial value towards identifying vulnerable pop
  
 ## App description and features
  
-Our app, *imPACT*, aims to help Toronto’s public health officials, emergency response staff, and residents identify neighbourhoods where vulnerable populations are located, and examine how resilient these communities might be in response to the COVID-19 outbreak. First, users will be able to calculate a COVID-19 Neighbourhood Vulnerability Index for their neighbourhood, and will be able to view key demographic numbers and healthcare facilities in their area. Second, users are able to search locations and identify nearby healthcare facilities within a defined radius.
+Our app, *ReCOVer*, aims to help Toronto’s public health officials, emergency response staff, and residents identify neighbourhoods where vulnerable populations are located, and examine how resilient these communities might be in response to the COVID-19 outbreak. First, users will be able to calculate a COVID-19 Neighbourhood Vulnerability Index for their neighbourhood, and will be able to view key demographic numbers and healthcare facilities in their area. Second, users are able to search locations and identify nearby healthcare facilities within a defined radius.
 
 ### Functionalities (TO ADD)
 
