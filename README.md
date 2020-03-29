@@ -71,6 +71,8 @@ The **CNVI*** is thus the weighted average of each index:
 
 `CNVI = 2 x SESI + 2 x VSI + 2 x NHI + 2 x HPI + 2 x EI`
 
+*The imPACt app displays a normalized value of CNVI to emphasize variation across neighbourhoods*
+
 ## Data Sources
 ### Census and health data
 Ontario Health Profiles (2016/7): http://www.ontariohealthprofiles.ca/dataTablesON.php?varTab=HPDtbl&select1=7
