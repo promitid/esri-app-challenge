@@ -12,7 +12,7 @@ While these indices provide substantial value towards identifying vulnerable pop
  
 ## App description and features
  
-Our app, imPACT, aims to help Toronto’s public health officials, emergency response staff, and residents identify neighbourhoods where vulnerable populations are located, and examine how resilient these communities might be in response to the COVID-19 outbreak. First, users will be able to calculate a COVID-19 Neighbourhood Vulnerability Index for their neighbourhood, and will be able to view key demographic numbers and healthcare facilities in their area. Second, users are able to search locations and identify nearby healthcare facilities within a defined radius.
+Our app, *imPACT*, aims to help Toronto’s public health officials, emergency response staff, and residents identify neighbourhoods where vulnerable populations are located, and examine how resilient these communities might be in response to the COVID-19 outbreak. First, users will be able to calculate a COVID-19 Neighbourhood Vulnerability Index for their neighbourhood, and will be able to view key demographic numbers and healthcare facilities in their area. Second, users are able to search locations and identify nearby healthcare facilities within a defined radius.
 
 ### Functionalities (TO ADD)
 
@@ -20,7 +20,7 @@ Our app, imPACT, aims to help Toronto’s public health officials, emergency res
 ## Calculations
 ### COVID-19 Neighbourhood Vulnerability Index
  
-The CNVI consists of neighbourhood-level variables that account for vulnerable populations, probability of exposure, and preparedness of healthcare facilities. Together, these factors indicate which neighbourhoods may be more susceptible to exposure or less capable of dealing with crisis. There are 5 dimensions of the CNVI: socioeconomic status, vulnerable seniors, healthcare usage, chronic disease, and exposure. For each dimension, an equally weighted index was calculated from normalized rates of various neighbourhood-level variables, displayed on a scale from 0-10, where higher values are worse. The CNVI is the average of indices from each dimension, and was normalized to show variation across neighbourhoods.
+The *CNVI* consists of neighbourhood-level variables that account for vulnerable populations, probability of exposure, and preparedness of healthcare facilities. Together, these factors indicate which neighbourhoods may be more susceptible to exposure or less capable of dealing with crisis. There are 5 dimensions of the CNVI: socioeconomic status, vulnerable seniors, healthcare usage, chronic disease, and exposure. For each dimension, an equally weighted index was calculated from normalized rates of various neighbourhood-level variables, displayed on a scale from 0-10, where higher values are worse. The CNVI is the average of indices from each dimension, and was normalized to show variation across neighbourhoods.
  
 **Socioeconomic status (SES):** Social and economic characteristics are often linked to health outcomes and ability to respond to adverse events. This dimension encapsulates basic dimensions of SES status: education, market-based measure income<sup>6</sup>, ethnic concentration, and primary language. The following rates were calculated, normalized, and converted into an equally weighted index:
  
@@ -83,11 +83,9 @@ Ontario Hospitals: https://geohub.lio.gov.on.ca/datasets/ministry-of-health-serv
  
 1. WHO Director-General’s opening remarks at the media briefing on COVID-19. (2020, March 11). World Health Organization. https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020
 2. World Health Organization. (2020). COVID-19 Situation Report (No. 67). World Health Organization. https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200327-sitrep-67-covid-19.pdf?sfvrsn=b65f68eb_4
-3. Agency for Toxic Substances and Disease Registry (ATSDR), (2018, September 10). The Social Vulnerability Index (SVI): Fact Sheet. Centers for Disease Control and Prevention. factsheet.html
+3. Agency for Toxic Substances and Disease Registry (ATSDR), (2018, September 10). The Social Vulnerability Index (SVI): Fact Sheet. Centers for Disease Control and Prevention.
 4. Ontario Marginalization Index (ON-Marg). (n.d.). Public Health Ontario. Retrieved March 28, 2020, from https://www.publichealthontario.ca/en/Data and Analysis/Health Equity/Ontario Marginalization Index
-5. Wu, C., Chen, X., Cai, Y., Xia, J., Zhou, X., Xu, S., Huang, H., Zhang, L., Zhou, X., Du, C., Zhang, Y., Song, J., Wang, S., Chao, Y., Yang, Z., Xu, J., Zhou, X., Chen, D., Xiong, W., … Song, Y. (2020). Risk Factors Associated With Acute Respiratory Distress Syndrome and Death in Patients With Coronavirus Disease 2019 Pneumonia in Wuhan, China. JAMA Internal Medicine. https://doi.org/10.1001/jamainternmed.2020.0994
+5. Wu, C., Chen, X., Cai, Y., Xia, J., Zhou, X., Xu, S., Huang, H., Zhang, L., Zhou, X., Du, C., Zhang, Y., Song, J., Wang, S., Chao, Y., Yang, Z., Xu, J., Zhou, X., Chen, D., Xiong, W., et al. (2020). Risk Factors Associated With Acute Respiratory Distress Syndrome and Death in Patients With Coronavirus Disease 2019 Pneumonia in Wuhan, China. JAMA Internal Medicine. https://doi.org/10.1001/jamainternmed.2020.0994
 6. Government of Canada, S. C. (2017, May 3). Dictionary, Census of Population, 2016—Market Basket Measure (MBM). https://www12.statcan.gc.ca/census-recensement/2016/ref/dict/pop165-eng.cfm
-7. Government of Ontario, M. of H. and L.-T. C. (n.d.). Q&A: Understanding Family Health Teams - Family Health Teams - Ministry Programs - Health Care Professionals - MOHLTC. Government of Ontario, Ministry of Health and Long-Term Care. Retrieved March 28, 2020, from http://www.health.gov.on.ca/en/pro/programs/fht/fht_understanding.aspx
-8. Government of Ontario, M. of H. and L.-T. C. (n.d.). Community Health Centres—Health Services in Your Community—MOHLTC. Government of Ontario, Ministry of Health and Long-Term Care. Retrieved March 28, 2020, from http://www.health.gov.on.ca/en/common/system/services/chc/default.aspx
- 
- 
+7. Government of Ontario, M. of H. and L.-T. C. (n.d.). Q&A: Understanding Family Health Teams. Government of Ontario, Ministry of Health and Long-Term Care. Retrieved March 28, 2020, from http://www.health.gov.on.ca/en/pro/programs/fht/fht_understanding.aspx
+8. Government of Ontario, M. of H. and L.-T. C. (n.d.). Community Health Centres. Government of Ontario, Ministry of Health and Long-Term Care. Retrieved March 28, 2020, from http://www.health.gov.on.ca/en/common/system/services/chc/default.aspx
