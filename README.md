@@ -24,7 +24,7 @@ The *CNVI* consists of neighbourhood-level variables that account for vulnerable
  
 **Socioeconomic status (SES):** Social and economic characteristics are often linked to health outcomes and ability to respond to adverse events. This dimension encapsulates basic dimensions of SES status: education, market-based measure income<sup>6</sup>, ethnic concentration, and primary language. The following rates were calculated, normalized, and converted into an equally weighted index:
  
-`SES Index = 2.5 x UnivGrad + 2.5 x LowIncome + 2.5 x Minority + 2.5 x NoEnFr`
+`SES Index (SESI) = 2.5 x UnivGrad + 2.5 x LowIncome + 2.5 x Minority + 2.5 x NoEnFr`
  
     UnivGrad = 1 – (rate of people with a university degree at bachelor level or above)
     LowIncome = rate of low-income individuals based on the market-based measure
@@ -34,7 +34,7 @@ The *CNVI* consists of neighbourhood-level variables that account for vulnerable
  
 **Vulnerable seniors:** Current studies show that morbidity and mortality rates for COVID-19 is higher amongst seniors <sup> 6 </sup>. As such, this dimension accounts for the population seniors (> 65) within each neighbourhood, seniors living alone, and the number of senior facilities in each neighbourhood.
  
-`Vulnerable Senior Index= 3.33 x SeniorPop + 3.33 x SenAlone + 3.33 x SeniorFacilities`
+`Vulnerable Senior Index (VSI) = 3.33 x SeniorPop + 3.33 x SenAlone + 3.33 x SeniorFacilities`
  
     SeniorPop = per capita rate of persons aged > 65
     SenAlone = rate of people aged >65 living alone amongst private household population
@@ -43,7 +43,7 @@ The *CNVI* consists of neighbourhood-level variables that account for vulnerable
  
 **Neighbourhood Health (NH):** Prevalence of chronic health conditions are an indicator of neighbourhood-level health, and in the context of COVID-19, the vulnerable population also includes those with underlying chronic health conditions.  This dimension accounts for the prevalence of chronic respiratory diseases, COPD and asthma, along with diabetes and hypertension, among adults.
  
-`NH Index = 2.5 x Asthma + 2.5 x COPD + 2.5 x Diab + 2.5 x HBP`
+`NH Index (NHI) = 2.5 x Asthma + 2.5 x COPD + 2.5 x Diab + 2.5 x HBP`
  
     Asthma = age-standardized rate of asthma, all ages
     COPD = age-standardized rate of COPD, ages +35
@@ -52,21 +52,25 @@ The *CNVI* consists of neighbourhood-level variables that account for vulnerable
  
 **Healthcare preparedness:** This dimension encapsulates the degree of healthcare resource utilization within each neighbourhood. This provides insight into the potential strain of healthcare resources that may be experienced in a community in the case of a communicable disease outbreak. This dimension reports annual hospitalization rates, ED visits, and proportion of Family Healthcare Team (FHT) or Community Healthcare Centre (CHC) patients<sup>7,8</sup>.
  
-`Healthcare Preparedness Index = 3.33 x HospRate + 3.33 x EDRate + 0.33 x FHTCHC`
+`Healthcare Preparedness Index (HPI) = 3.33 x HospRate + 3.33 x EDRate + 0.33 x FHTCHC`
  
     HospRate = age-standardized average annual rate of all hospitalizations, all ages
     EDRate = age-standardized average annual rate of all ED visits, all ages               
-    FHTCHC = per capita rate of FHT or CHC patients, among registered persons database population
+    FHTCHC = 1 - (per capita rate of FHT or CHC patients, among registered persons database population)
  
  
 **Exposure and behaviours:** This dimension identifies the population that is at high risk of exposure to the spread of communicable diseases, either through their living conditions or their behaviours. This includes people who may commute or walk to work, live in crowded areas, or live in high-density neighbourhoods.
  
-`Exposure Index = 2.5 x Crowding + 2.5 x Apartm + 2.5 x TransWalk + 2.5 x Density`
+`Exposure Index (EI) = 2.5 x Crowding + 2.5 x Apartm + 2.5 x TransWalk + 2.5 x Density`
  
     Crowding = rate of private households with more than 1 person per room
     Apartm = rate of occupied private dwellings in an apartment building with 5+ storeys
     TransWalk = rate of commuters who walk or take transit to work, among employed labour force >15
  
+The CNVI is thus the weighted average of each index: 
+
+`CNVI = 2 x SESI + 2 x VSI + 2 x NHI + 2 x HPI + 2 x EI`
+
 ## Data Sources
 ### Census and health data
 Ontario Health Profiles (2016/7): http://www.ontariohealthprofiles.ca/dataTablesON.php?varTab=HPDtbl&select1=7
