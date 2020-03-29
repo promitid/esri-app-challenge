@@ -43,7 +43,7 @@ The CNVI consists of neighbourhood-level variables that account for vulnerable p
  
 **Neighbourhood Health (NH):** Prevalence of chronic health conditions are an indicator of neighbourhood-level health, and in the context of COVID-19, the vulnerable population also includes those with underlying chronic health conditions.  This dimension accounts for the prevalence of chronic respiratory diseases, COPD and asthma, along with diabetes and hypertension, among adults.
  
-`NH Index = 2.5*Asthma + 2.5*COPD + 2.5*Diab + 2.5*HBP`
+`NH Index = 2.5 x Asthma + 2.5 x COPD + 2.5 x Diab + 2.5 x HBP`
  
     Asthma = age-standardized rate of asthma, all ages
     COPD = age-standardized rate of COPD, ages +35
