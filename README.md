@@ -71,7 +71,7 @@ The **CNVI** is thus the weighted average of each index:
 
 `CNVI = 2 x SESI + 2 x VSI + 2 x NHI + 2 x HPI + 2 x EI`
 
-*The imPACt app displays a normalized value of CNVI to emphasize variation across neighbourhoods, however each individual index can be viewed*
+*The imPACt app displays a normalized value of CNVI to emphasize variation across neighbourhoods, however the individual indices are displayed as their raw scores.*
 
 ## Data Sources
 ### Census and health data
