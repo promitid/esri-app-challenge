@@ -67,11 +67,11 @@ The **CNVI** consists of neighbourhood-level variables that account for vulnerab
     Apartm = rate of occupied private dwellings in an apartment building with 5+ storeys
     TransWalk = rate of commuters who walk or take transit to work, among employed labour force >15
  
-The **CNVI*** is thus the weighted average of each index: 
+The **CNVI** is thus the weighted average of each index: 
 
 `CNVI = 2 x SESI + 2 x VSI + 2 x NHI + 2 x HPI + 2 x EI`
 
-*The imPACt app displays a normalized value of CNVI to emphasize variation across neighbourhoods*
+*The imPACt app displays a normalized value of CNVI to emphasize variation across neighbourhoods, however each individual index can be viewed*
 
 ## Data Sources
 ### Census and health data
